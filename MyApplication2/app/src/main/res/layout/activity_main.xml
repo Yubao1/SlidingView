@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="demo1.xe.com.myapplication2.MainActivity">
+    <Button
+        android:id="@+id/btn_scroll_by"
+        android:layout_width="match_parent"
+        android:text="scrollBy滑动"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_traditional_animation"
+        android:layout_width="match_parent"
+        android:text="传统 View 动画"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_object_animation"
+        android:layout_width="match_parent"
+        android:text="属性动画"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_change_layout_parameter"
+        android:layout_width="match_parent"
+        android:text="改变布局参数"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_use_layout"
+        android:layout_width="match_parent"
+        android:text="使用 layout"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+</LinearLayout>

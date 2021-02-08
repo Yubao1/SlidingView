@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="demo1.xe.com.myapplication2.ChangeLayoutParameterActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:text="点击我可移动第一个View"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="点击我可移动第二个View"
+        android:onClick="onClick2"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="350px"
+        android:onClick="onClick3"
+        android:text="改变布局参数可移动的View"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:id="@+id/view"
+            android:layout_width="0px"
+            android:layout_height="1px"/>
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="350px"
+            android:onClick="onClick4"
+            android:text="改变布局参数可移动的View"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
